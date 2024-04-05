@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.Vector;
+//这是第4版
 
 /**
  * 坦克大战的绘图区域（画板）

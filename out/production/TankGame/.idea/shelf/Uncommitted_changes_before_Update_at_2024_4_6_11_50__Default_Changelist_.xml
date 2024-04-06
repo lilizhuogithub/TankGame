@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Update_at_2024_4_6_11_50_[Default_Changelist]" date="1712375415042" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_4_6_11_50_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2024/4/6 11:50 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/TankGame/com/lizhuo/tankgame4/EnemyTank.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/TankGame/com/lizhuo/tankgame4/Hero.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/TankGame/com/lizhuo/tankgame4/lzTankGame04.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/TankGame/com/lizhuo/tankgame4/Shot.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/TankGame/com/lizhuo/tankgame4/Tank.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/TankGame/com/lizhuo/tankgame4/MyPanel.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/TankGame/com/lizhuo/tankgame4/Bomb.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>

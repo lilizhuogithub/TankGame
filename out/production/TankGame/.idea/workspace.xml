@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="187b15ac-54a1-4bf4-85c5-ef073532e328" name="Default Changelist" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TankGame.iml" beforeDir="false" />
+    </list>
+    <list id="d9c7ae2b-1896-4ab6-83c6-b244f521c55e" name="Revert &quot;001&quot;" comment="Revert &quot;001&quot;&#10;&#10;This reverts commit cce271fc" />
+    <list id="19fad8f7-89dc-4f8d-9105-7771ad11ec1c" name="Revert &quot;我方坦克发射的子弹消亡后才能发出新的子弹&quot;" comment="Revert &quot;我方坦克发射的子弹消亡后才能发出新的子弹&quot;&#10;&#10;This reverts commit 84f4f4a4" />
+    <list id="40ea75fc-bc75-4498-aa03-e00f21519ae6" name="Revert &quot;我方坦克发射的子弹消亡后才能发出新的子弹&quot;-2" comment="合并冲突" />
+    <list id="65038db7-dafe-4a9d-9634-cfe17f36b25f" name="Revert &quot;我方能发射多颗子弹&quot;" comment="Revert &quot;我方能发射多颗子弹&quot;&#10;&#10;This reverts commit 585c06f3" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="2eZhk97VehQNIYexzeYZz69ujTz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/TankGame" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\19443\IdeaProjects\TankGame\src\com\lizhuo\tankgame1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\19443\IdeaProjects\TankGame\out\production\TankGame" />
+      <recent name="C:\Users\19443\IdeaProjects\TankGame\src\com\lizhuo\tankgame5" />
+      <recent name="C:\Users\19443\IdeaProjects\TankGame\src\com\lizhuo\tankgame4" />
+      <recent name="C:\Users\19443\IdeaProjects\TankGame\src\com\lizhuo\tankgame3" />
+      <recent name="C:\Users\19443\IdeaProjects\TankGame\src\com\lz\tankgame2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.lzTankGame05">
+    <configuration name="cpu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizhuo.tankgame2.cpu" />
+      <module name="TankGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizhuo.tankgame2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lzTankGame01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lz.tankgame2.lzTankGame01" />
+      <module name="TankGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.tankgame2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lzTankGame02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizhuo.tankgame2.lzTankGame02" />
+      <module name="TankGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizhuo.tankgame2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lzTankGame03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizhuo.tankgame3.lzTankGame03" />
+      <module name="TankGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizhuo.tankgame3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lzTankGame05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lizhuo.tankgame5.lzTankGame05" />
+      <module name="TankGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizhuo.tankgame5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.lzTankGame05" />
+        <item itemvalue="Application.lzTankGame03" />
+        <item itemvalue="Application.lzTankGame02" />
+        <item itemvalue="Application.lzTankGame01 (1)" />
+        <item itemvalue="Application.cpu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="187b15ac-54a1-4bf4-85c5-ef073532e328" name="Default Changelist" comment="" />
+      <created>1712118149105</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712118149105</updated>
+      <workItem from="1712118150120" duration="44443000" />
+      <workItem from="1712372574819" duration="1429000" />
+      <workItem from="1712374043140" duration="698000" />
+      <workItem from="1712374755181" duration="312000" />
+      <workItem from="1712375077612" duration="753000" />
+      <workItem from="1712375846469" duration="65000" />
+      <workItem from="1712375929150" duration="23000" />
+      <workItem from="1712375978419" duration="819000" />
+      <workItem from="1712376813034" duration="503000" />
+      <workItem from="1712377341969" duration="13895000" />
+      <workItem from="1712392313177" duration="1516000" />
+    </task>
+    <task id="LOCAL-00001" summary="001">
+      <created>1712305925378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712305925378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="加了注释">
+      <created>1712309241194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712309241194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="加了5注释">
+      <created>1712309435242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712309435242</updated>
+    </task>
+    <task id="LOCAL-00004" summary="删除了前几个">
+      <created>1712309524286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712309524286</updated>
+    </task>
+    <task id="LOCAL-00005" summary="设置了爆炸效果 敌人坦克的随机移动 敌人和我方坦克不能越界">
+      <created>1712367557115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712367557115</updated>
+    </task>
+    <task id="LOCAL-00006" summary="我方坦克发射的子弹消亡后才能发出新的子弹">
+      <created>1712368368549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712368368549</updated>
+    </task>
+    <task id="LOCAL-00007" summary="发射多颗子弹">
+      <created>1712369160848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712369160848</updated>
+    </task>
+    <task id="LOCAL-00008" summary="我方只能发射一颗子弹,要等子弹销毁之后才能发射第二个">
+      <created>1712373050383</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712373050383</updated>
+    </task>
+    <task id="LOCAL-00009" summary="我方只能发射一颗子弹,要等子弹销毁之后才能发射第二个（see this）">
+      <created>1712377510511</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712377510511</updated>
+    </task>
+    <task id="LOCAL-00010" summary="我方只能发射一颗子弹,要等子弹销毁之后才能发射第二个（see this）">
+      <created>1712377600059</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712377600059</updated>
+    </task>
+    <task id="LOCAL-00011" summary="我方只能发射多颗子弹">
+      <created>1712377915245</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712377915245</updated>
+    </task>
+    <task id="LOCAL-00012" summary="我方只能发射多颗子弹">
+      <created>1712378027380</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712378027380</updated>
+    </task>
+    <task id="LOCAL-00013" summary="我方能发射多颗子弹">
+      <created>1712378061541</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712378061541</updated>
+    </task>
+    <task id="LOCAL-00014" summary="我方能发射多颗子弹">
+      <created>1712378064666</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712378064666</updated>
+    </task>
+    <task id="LOCAL-00015" summary="我方最多连续发射5颗子弹">
+      <created>1712378264569</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712378264569</updated>
+    </task>
+    <task id="LOCAL-00016" summary="我方最多连续发射5颗子弹,并判断是否击中敌人">
+      <created>1712379255886</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712379255886</updated>
+    </task>
+    <task id="LOCAL-00017" summary="我方最多连续发射5颗子弹,并判断是否击中敌人">
+      <created>1712379387841</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712379387841</updated>
+    </task>
+    <task id="LOCAL-00018" summary="敌人的坦克消亡后可以再打出一发子弹">
+      <created>1712380337671</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712380337671</updated>
+    </task>
+    <task id="LOCAL-00019" summary="敌人的坦克的子弹消亡后可以再打出一发子弹">
+      <created>1712380671918</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1712380671918</updated>
+    </task>
+    <task id="LOCAL-00020" summary="敌人的坦克击中我方坦克之后，我方坦克消失，并出现爆炸效果">
+      <created>1712383230951</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1712383230951</updated>
+    </task>
+    <task id="LOCAL-00021" summary="initial commit">
+      <created>1712384354380</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712384354380</updated>
+    </task>
+    <task id="LOCAL-00022" summary="防止敌人坦克重叠">
+      <created>1712388937985</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712388937985</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/19443/IdeaProjects/TankGame/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+        <entry key="2" value="TOOL_WINDOW" />
+        <entry key="3" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="01" />
+    <MESSAGE value="001" />
+    <MESSAGE value="加了注释" />
+    <MESSAGE value="加了5注释" />
+    <MESSAGE value="删除了前几个" />
+    <MESSAGE value="设置了爆炸效果 敌人坦克的随机移动 敌人和我方坦克不能越界" />
+    <MESSAGE value="我方坦克发射的子弹消亡后才能发出新的子弹" />
+    <MESSAGE value="发射多颗子弹" />
+    <MESSAGE value="合并冲突" />
+    <MESSAGE value="我方只能发射一颗子弹,要等子弹销毁之后才能发射第二个" />
+    <MESSAGE value="我方只能发射一颗子弹,要等子弹销毁之后才能发射第二个（see this）" />
+    <MESSAGE value="我方只能发射多颗子弹" />
+    <MESSAGE value="我方能发射多颗子弹" />
+    <MESSAGE value="我方最多连续发射5颗子弹" />
+    <MESSAGE value="我方最多连续发射5颗子弹,并判断是否击中敌人" />
+    <MESSAGE value="敌人的坦克消亡后可以再打出一发子弹" />
+    <MESSAGE value="敌人的坦克子弹消亡后可以再打出一发子弹" />
+    <MESSAGE value="敌人的坦克的子弹消亡后可以再打出一发子弹" />
+    <MESSAGE value="敌人的坦克击中我方坦克之后，我方坦克消失，并出现爆炸效果" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="防止敌人坦克重叠" />
+    <option name="LAST_COMMIT_MESSAGE" value="防止敌人坦克重叠" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1480" y="276" key="#Project_Structure" timestamp="1712118155397">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1480" y="276" key="#Project_Structure/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712118155397" />
+    <state x="479" y="207" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1712375287691">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="479" y="207" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712375287691" />
+    <state x="-1155" y="418" key="#com.intellij.ide.util.MemberChooser" timestamp="1712313934843">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1155" y="418" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712313934843" />
+    <state x="-1338" y="228" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1712127265146">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1338" y="228" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712127265146" />
+    <state x="531" y="107" width="985" height="992" key="CommitChangelistDialog2" timestamp="1712378905415">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="531" y="107" width="985" height="992" key="CommitChangelistDialog2/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712378905415" />
+    <state x="-1828" y="278" width="1852" height="908" key="DiffContextDialog" timestamp="1712391742289">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1828" y="278" width="1736" height="848" key="DiffContextDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712391742289" />
+    <state x="98" y="98" width="1852" height="908" key="DiffContextDialog/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712371260231" />
+    <state x="849" y="397" key="FileChooserDialogImpl" timestamp="1712377033928">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="-1124" y="557" key="FileChooserDialogImpl/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712290053207" />
+    <state x="849" y="397" key="FileChooserDialogImpl/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712377033928" />
+    <state x="-1092" y="599" key="Github.ShareDialog" timestamp="1712306511817">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1092" y="599" key="Github.ShareDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712306511817" />
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1712392779995">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712392779995" />
+    <state width="2005" height="658" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
+    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1712392779995">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="185" key="GridCell.Tab.0.center/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712392779995" />
+    <state width="2005" height="658" key="GridCell.Tab.0.center/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
+    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1712392779995">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="185" key="GridCell.Tab.0.left/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712392779995" />
+    <state width="2005" height="658" key="GridCell.Tab.0.left/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
+    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1712392779995">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="185" key="GridCell.Tab.0.right/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712392779995" />
+    <state width="2005" height="658" key="GridCell.Tab.0.right/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
+    <state x="-1757" y="256" key="MergeDialog" timestamp="1712392239688">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1757" y="256" key="MergeDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712392239688" />
+    <state x="174" y="75" key="MergeDialog/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712378889244" />
+    <state x="-1325" y="462" width="1508" height="478" key="MultipleFileMergeDialog" timestamp="1712392329016">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1325" y="462" key="MultipleFileMergeDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712392329016" />
+    <state x="268" y="295" width="1508" height="478" key="MultipleFileMergeDialog/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712378889250" />
+    <state x="762" y="232" key="RollbackChangesDialog" timestamp="1712383655828">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="-1206" y="403" key="RollbackChangesDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712370386309" />
+    <state x="762" y="232" key="RollbackChangesDialog/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712383655828" />
+    <state x="322" y="254" width="1428" height="712" key="SettingsEditor" timestamp="1712377050358">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="-1618" y="446" width="1428" height="712" key="SettingsEditor/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712306993220" />
+    <state x="322" y="254" key="SettingsEditor/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712377050358" />
+    <state x="-1179" y="398" key="VCS.ChangeListViewerDialog" timestamp="1712370107323">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1179" y="398" key="VCS.ChangeListViewerDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712370107323" />
+    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2" timestamp="1712391759601">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712391759601" />
+    <state x="589" y="266" key="Vcs.Push.Dialog.v2/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384372150" />
+    <state x="-1772" y="347" width="1736" height="848" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1712284771377">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1772" y="347" width="1736" height="848" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712284771377" />
+    <state x="814" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1712384076970">
+      <screen x="0" y="0" width="2048" height="1104" />
+    </state>
+    <state x="-1157" y="615" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712309357477" />
+    <state x="814" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384076970" />
+    <state x="-1230" y="461" key="extract.method.dialog" timestamp="1712125768603">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1230" y="461" key="extract.method.dialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712125768603" />
+    <state x="-1258" y="434" width="596" height="536" key="find.popup" timestamp="1712388640248">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1258" y="434" width="596" height="536" key="find.popup/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712388640248" />
+    <state x="706" y="265" width="636" height="574" key="find.popup/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712382687199" />
+    <state x="-1184" y="433" key="git4idea.branch.GitSmartOperationDialog" timestamp="1712392342598">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1184" y="433" key="git4idea.branch.GitSmartOperationDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712392342598" />
+    <state x="785" y="264" key="git4idea.branch.GitSmartOperationDialog/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712383634056" />
+    <state x="-1159" y="608" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1712290742337">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1159" y="608" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712290742337" />
+    <state x="-1297" y="409" width="672" height="678" key="search.everywhere.popup" timestamp="1712368711961">
+      <screen x="-1920" y="186" width="1920" height="1032" />
+    </state>
+    <state x="-1297" y="409" width="672" height="678" key="search.everywhere.popup/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712368711961" />
+  </component>
+</project>

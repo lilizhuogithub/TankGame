@@ -163,6 +163,16 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
         }
     }
+    public void hitEnemyTank() {
+        //判断是否集中了敌人坦克
+        if (hero.shot != null && hero.shot.isLive) {    //当我的子弹还存活
+            //遍历敌人所有的坦克
+            for (int i = 0; i < enemyTanks.size(); i++) {
+                EnemyTank enemyTank = enemyTanks.get(i);
+                hitTank(hero.shot, enemyTank);
+            }
+        }
+    }
 // 遍历
     //编写方法，判断我方的子弹是否击中敌人
     //最好在run方法中判断
@@ -260,14 +270,9 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            //判断是否集中了敌人坦克
-            if (hero.shot != null && hero.shot.isLive) {    //当我的子弹还存活
-                //遍历敌人所有的坦克
-                for (int i = 0; i < enemyTanks.size(); i++) {
-                    EnemyTank enemyTank = enemyTanks.get(i);
-                    hitTank(hero.shot, enemyTank);
-                }
-            }
+
+            //判断是我们子弹否击中了敌人坦克
+            hitEnemyTank();
 
             this.repaint();
         }

@@ -239,10 +239,12 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
         //如果用户按下的时J, 就发射
         if (e.getExtendedKeyCode() == KeyEvent.VK_J) {
+            //发射一颗子弹
             //判断hero的子弹是否销毁 第一次为空才触发子弹, 第二次使用判断子弹打到边界没有存活才触发
             if (hero.shot == null || !hero.shot.isLive) {
                 hero.shotEnemyTank();
             }
+
         }
         this.repaint();
     }

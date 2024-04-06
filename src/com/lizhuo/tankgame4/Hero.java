@@ -1,5 +1,7 @@
 package com.lizhuo.tankgame4;
 
+import java.util.Vector;
+
 /**
  *自己的坦克
  */
@@ -28,6 +30,7 @@ public class Hero extends Tank {
                 shot = new Shot(getX(), getY() + 20, 3);
                 break;
         }
+
         //启动我的Shot线程
         new Thread(shot).start();
 

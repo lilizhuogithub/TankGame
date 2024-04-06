@@ -80,9 +80,19 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
             }
         }
 
-        //画出hero射击的子弹
-        if (hero.shot != null && hero.shot.isLive == true) {
-            g.draw3DRect(hero.shot.x, hero.shot.y, 1, 1, false);
+//        //画出hero射击的子弹
+//        if (hero.shot != null && hero.shot.isLive == true) {
+//            g.draw3DRect(hero.shot.x, hero.shot.y, 1, 1, false);
+//        }
+        //将hero的子弹集合 shots ,遍历取出绘制
+        for(int i = 0; i < hero.shots.size(); i++) {
+            Shot shot = hero.shots.get(i);
+            if (shot != null && shot.isLive) {
+                g.draw3DRect(shot.x, shot.y, 1, 1, false);
+
+            } else {//如果该shot对象已经无效 ,就从shots集合中拿掉
+                hero.shots.remove(shot);
+            }
         }
 
         //如果bombs中 有对象, 就画出
@@ -240,9 +250,11 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         //如果用户按下的时J, 就发射
         if (e.getExtendedKeyCode() == KeyEvent.VK_J) {
             //判断hero的子弹是否销毁 第一次为空才触发子弹, 第二次使用判断子弹打到边界没有存活才触发
-            if (hero.shot == null || !hero.shot.isLive) {
-                hero.shotEnemyTank();
-            }
+//            if (hero.shot == null || !hero.shot.isLive) {
+//                hero.shotEnemyTank();
+//            }
+            //发射多颗子弹
+            hero.shotEnemyTank();
         }
         this.repaint();
     }

@@ -6,12 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="187b15ac-54a1-4bf4-85c5-ef073532e328" name="Default Changelist" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TankGame.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/Recorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TankGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TankGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TankGame/com/lizhuo/tankgame5/MyPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TankGame/com/lizhuo/tankgame5/MyPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/MyPanel.java" afterDir="false" />
     </list>
     <list id="d9c7ae2b-1896-4ab6-83c6-b244f521c55e" name="Revert &quot;001&quot;" comment="Revert &quot;001&quot;&#10;&#10;This reverts commit cce271fc" />
@@ -183,7 +181,7 @@
       <workItem from="1712375978419" duration="819000" />
       <workItem from="1712376813034" duration="503000" />
       <workItem from="1712377341969" duration="13895000" />
-      <workItem from="1712392313177" duration="1638000" />
+      <workItem from="1712392313177" duration="3490000" />
     </task>
     <task id="LOCAL-00001" summary="001">
       <created>1712305925378</created>
@@ -339,7 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712388937985</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="做出击毁敌人坦克数量的界面">
+      <created>1712394978726</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1712394978726</updated>
+    </task>
+    <task id="LOCAL-00024" summary="做出击毁敌人坦克数量的界面">
+      <created>1712395154742</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1712395154742</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +493,8 @@
     <MESSAGE value="敌人的坦克击中我方坦克之后，我方坦克消失，并出现爆炸效果" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="防止敌人坦克重叠" />
-    <option name="LAST_COMMIT_MESSAGE" value="防止敌人坦克重叠" />
+    <MESSAGE value="做出击毁敌人坦克数量的界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="做出击毁敌人坦克数量的界面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1480" y="276" key="#Project_Structure" timestamp="1712118155397">
@@ -492,10 +505,10 @@
       <screen x="0" y="0" width="2048" height="1104" />
     </state>
     <state x="479" y="207" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712375287691" />
-    <state x="-1155" y="418" key="#com.intellij.ide.util.MemberChooser" timestamp="1712313934843">
+    <state x="-1155" y="418" key="#com.intellij.ide.util.MemberChooser" timestamp="1712396327116">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state x="-1155" y="418" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712313934843" />
+    <state x="-1155" y="418" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712396327116" />
     <state x="-1338" y="228" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1712127265146">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
@@ -518,25 +531,25 @@
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
     <state x="-1092" y="599" key="Github.ShareDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712306511817" />
-    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1712394846933">
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1712396940857">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712394846933" />
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712396940857" />
     <state width="2005" height="658" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
-    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1712394846933">
+    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1712396940857">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.center/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712394846933" />
+    <state width="1877" height="185" key="GridCell.Tab.0.center/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712396940857" />
     <state width="2005" height="658" key="GridCell.Tab.0.center/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
-    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1712394846933">
+    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1712396940857">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.left/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712394846933" />
+    <state width="1877" height="185" key="GridCell.Tab.0.left/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712396940857" />
     <state width="2005" height="658" key="GridCell.Tab.0.left/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
-    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1712394846933">
+    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1712396940857">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.right/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712394846933" />
+    <state width="1877" height="185" key="GridCell.Tab.0.right/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712396940857" />
     <state width="2005" height="658" key="GridCell.Tab.0.right/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
     <state x="-1757" y="256" key="MergeDialog" timestamp="1712392239688">
       <screen x="-1920" y="186" width="1920" height="1032" />
@@ -562,10 +575,10 @@
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
     <state x="-1179" y="398" key="VCS.ChangeListViewerDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712370107323" />
-    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2" timestamp="1712391759601">
+    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2" timestamp="1712395157818">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712391759601" />
+    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712395157818" />
     <state x="589" y="266" key="Vcs.Push.Dialog.v2/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384372150" />
     <state x="-1772" y="347" width="1736" height="848" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1712284771377">
       <screen x="-1920" y="186" width="1920" height="1032" />

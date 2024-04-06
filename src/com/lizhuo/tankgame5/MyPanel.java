@@ -68,7 +68,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         g.drawString("您累积击毁敌方坦克", 1020, 30);
         drawTank(1020, 60, g, 0, 0);//画出一个敌方坦克
         g.setColor(Color.BLACK);//这里需要重新设置成黑色
-        g.drawString( "0", 1080, 100);
+        g.drawString( Recorder.getAllEnemyTankNum() + "", 1080, 100);
 
     }
 
@@ -226,6 +226,10 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
                     tank.isLive = false;
                     //当我的子弹击中敌人坦克后, 将enemyTank 从Vector中拿掉
                     enemyTanks.remove(tank);
+                    //当我方子弹击中敌人坦克后，就执行allEnemyTankNum++
+                    if (tank instanceof EnemyTank){
+                        Recorder.addAllEnemyTankNum();
+                    }
                     //创建Bomb对象, 加入到bombs中
                     Bomb bomb = new Bomb(tank.getX(), tank.getY());
                     bombs.add(bomb);
@@ -239,6 +243,10 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
                     tank.isLive = false;
                     //当我的子弹击中敌人坦克后, 将enemyTank 从Vector中拿掉
                     enemyTanks.remove(tank);
+                    //当我方子弹击中敌人坦克后，就执行allEnemyTankNum++
+                    if (tank instanceof EnemyTank){
+                        Recorder.addAllEnemyTankNum();
+                    }
                     //创建Bomb对象, 加入到bombs中
                     Bomb bomb = new Bomb(tank.getX(), tank.getY());
                     bombs.add(bomb);

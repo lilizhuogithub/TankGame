@@ -17,6 +17,12 @@ public class Hero extends Tank {
 
     //射击
     public void shotEnemyTank() {
+        //发多颗子弹怎么办, 控制在我们的面板上，最多只有5颗
+        if(shots.size() == 5) {
+            return;
+        }
+
+
         //创建 Shot 对象, 根据当前 Hero 对象的位置和方向来创建Shot
         switch (getDirect()){     //得到Hero对象的方向
             case 0: //向上

@@ -3,6 +3,7 @@ package com.lizhuo.tankgame5;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Vector;
 
 /**
  *该类用于记录相关信息和文件交互
@@ -14,6 +15,12 @@ public class Recorder {
     private static FileWriter fw = null;
     private static BufferedWriter bw = null;
     private static String recordFile = "D:\\myRocord.txt";
+    //定义Vector ,指向 MyPanel 对象的 敌人坦克Vector
+    private static Vector<EnemyTank> enemyTanks = null;
+
+    public static void setEnemyTanks(Vector<EnemyTank> enemyTanks) {
+        Recorder.enemyTanks = enemyTanks;
+    }
 
     public static int getAllEnemyTankNum() {
         return allEnemyTankNum;
@@ -29,12 +36,25 @@ public class Recorder {
     }
 
     //增加一个方法，当游戏退出时，我们将allEnemyTankNum 保存到 recordFile
+    //对keepRecord 进行升级, 保存敌人坦克的坐标和方向
     public static void keepRecord() {
         try {
             bw = new BufferedWriter(new FileWriter(recordFile));
             bw.write(allEnemyTankNum + "\r\n");
             //遍历敌人坦克的Vector ,然后根据情况保存即可.
             //OOP, 定义一个属性 ，然后通过setXxx得到 敌人坦克的Vector
+            //遍历敌人坦克的Vector ,然后根据情况保存即可.
+            //OOP, 定义一个属性 ，然后通过setXxx得到 敌人坦克的Vector
+            for (int i = 0; i < enemyTanks.size(); i++) {
+                //取出敌人坦克
+                EnemyTank enemyTank = enemyTanks.get(i);
+                if (enemyTank.isLive) { //建议判断.
+                    //保存该enemyTank信息
+                    String record = enemyTank.getX() + " " + enemyTank.getY() + " " + enemyTank.getDirect();
+                    //写入到文件
+                    bw.write(record + "\r\n");
+                }
+            }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

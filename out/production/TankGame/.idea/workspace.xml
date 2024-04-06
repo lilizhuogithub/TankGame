@@ -5,10 +5,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="187b15ac-54a1-4bf4-85c5-ef073532e328" name="Default Changelist" comment="使用io流记录击毁敌人坦克的数量">
+    <list default="true" id="187b15ac-54a1-4bf4-85c5-ef073532e328" name="Default Changelist" comment="使用io流记录退出游戏时的敌人坦克的坐标和方向">
+      <change afterPath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/MyPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/Recorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/Recorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/lzTankGame05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lizhuo/tankgame5/lzTankGame05.java" afterDir="false" />
     </list>
     <list id="d9c7ae2b-1896-4ab6-83c6-b244f521c55e" name="Revert &quot;001&quot;" comment="Revert &quot;001&quot;&#10;&#10;This reverts commit cce271fc" />
     <list id="19fad8f7-89dc-4f8d-9105-7771ad11ec1c" name="Revert &quot;我方坦克发射的子弹消亡后才能发出新的子弹&quot;" comment="Revert &quot;我方坦克发射的子弹消亡后才能发出新的子弹&quot;&#10;&#10;This reverts commit 84f4f4a4" />
@@ -179,7 +181,7 @@
       <workItem from="1712375978419" duration="819000" />
       <workItem from="1712376813034" duration="503000" />
       <workItem from="1712377341969" duration="13895000" />
-      <workItem from="1712392313177" duration="4781000" />
+      <workItem from="1712392313177" duration="6316000" />
     </task>
     <task id="LOCAL-00001" summary="001">
       <created>1712305925378</created>
@@ -370,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712397827896</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="使用io流记录退出游戏时的敌人坦克的坐标和方向">
+      <created>1712398556141</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712398556141</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +524,8 @@
     <MESSAGE value="做出击毁敌人坦克数量的界面" />
     <MESSAGE value="能动态显示击毁敌人坦克数量" />
     <MESSAGE value="使用io流记录击毁敌人坦克的数量" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用io流记录击毁敌人坦克的数量" />
+    <MESSAGE value="使用io流记录退出游戏时的敌人坦克的坐标和方向" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用io流记录退出游戏时的敌人坦克的坐标和方向" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1480" y="276" key="#Project_Structure" timestamp="1712118155397">
@@ -552,25 +562,25 @@
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
     <state x="-1092" y="599" key="Github.ShareDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712306511817" />
-    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1712398025368">
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom" timestamp="1712398462608">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712398025368" />
+    <state width="1877" height="185" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712398462608" />
     <state width="2005" height="658" key="GridCell.Tab.0.bottom/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
-    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1712398025368">
+    <state width="1877" height="185" key="GridCell.Tab.0.center" timestamp="1712398462606">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.center/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712398025368" />
+    <state width="1877" height="185" key="GridCell.Tab.0.center/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712398462606" />
     <state width="2005" height="658" key="GridCell.Tab.0.center/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
-    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1712398025368">
+    <state width="1877" height="185" key="GridCell.Tab.0.left" timestamp="1712398462606">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.left/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712398025368" />
+    <state width="1877" height="185" key="GridCell.Tab.0.left/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712398462606" />
     <state width="2005" height="658" key="GridCell.Tab.0.left/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
-    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1712398025368">
+    <state width="1877" height="185" key="GridCell.Tab.0.right" timestamp="1712398462608">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state width="1877" height="185" key="GridCell.Tab.0.right/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712398025368" />
+    <state width="1877" height="185" key="GridCell.Tab.0.right/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712398462608" />
     <state width="2005" height="658" key="GridCell.Tab.0.right/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384560589" />
     <state x="-1757" y="256" key="MergeDialog" timestamp="1712392239688">
       <screen x="-1920" y="186" width="1920" height="1032" />
@@ -596,10 +606,10 @@
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
     <state x="-1179" y="398" key="VCS.ChangeListViewerDialog/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712370107323" />
-    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2" timestamp="1712397831747">
+    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2" timestamp="1712398558371">
       <screen x="-1920" y="186" width="1920" height="1032" />
     </state>
-    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712397831747" />
+    <state x="-1368" y="435" width="1134" height="680" key="Vcs.Push.Dialog.v2/0.0.2048.1104/-1920.186.1920.1032@-1920.186.1920.1032" timestamp="1712398558371" />
     <state x="589" y="266" key="Vcs.Push.Dialog.v2/0.0.2048.1104/-1920.186.1920.1032@0.0.2048.1104" timestamp="1712384372150" />
     <state x="-1772" y="347" width="1736" height="848" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1712284771377">
       <screen x="-1920" y="186" width="1920" height="1032" />

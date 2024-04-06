@@ -1,8 +1,6 @@
 package com.lizhuo.tankgame5;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Vector;
 
 /**
@@ -14,9 +12,12 @@ public class Recorder {
     //定义IO对象，准备写数据到文件中
     private static FileWriter fw = null;
     private static BufferedWriter bw = null;
+    private static BufferedReader br = null;
     private static String recordFile = "D:\\myRocord.txt";
     //定义Vector ,指向 MyPanel 对象的 敌人坦克Vector
     private static Vector<EnemyTank> enemyTanks = null;
+    //定义一个Node 的Vector ,用于保存敌人的信息node
+    private static Vector<Node> nodes = new Vector<>();
 
     public static void setEnemyTanks(Vector<EnemyTank> enemyTanks) {
         Recorder.enemyTanks = enemyTanks;
@@ -66,6 +67,37 @@ public class Recorder {
                 e.printStackTrace();
             }
         }
+    }
+
+    //增加一个方法，用于读取recordFile, 恢复相关信息
+    //该方法，在继续上局的时候调用即可
+    public static Vector<Node> getNodesAndEnemyTankRec() {
+
+        try {
+
+            br = new BufferedReader(new FileReader(recordFile));
+            allEnemyTankNum = Integer.parseInt(br.readLine());
+            //循环读取文件，生成nodes 集合
+            String line = "";//255 40 0
+            while ((line = br.readLine()) != null) {
+                String[] xyd = line.split(" ");
+                Node node = new Node(Integer.parseInt(xyd[0]), Integer.parseInt(xyd[1]),
+                        Integer.parseInt(xyd[2]));
+                nodes.add(node);//放入nodes Vector
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (br != null) {
+                    br.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return nodes;
     }
 
 }

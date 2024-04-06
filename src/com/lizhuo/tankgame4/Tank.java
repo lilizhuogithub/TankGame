@@ -9,6 +9,7 @@ public class Tank {
     private int y;    //坦克的纵坐标
     private int direct;    //坦克方向
     private int speed = 1;    //坦克速度
+    boolean isLive = true;    //坦克是否存活
 
     public Tank(int x, int y) {
         this.x = x;

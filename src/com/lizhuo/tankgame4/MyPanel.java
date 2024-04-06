@@ -27,7 +27,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
     Image image3 = null;
 
     public MyPanel() {
-        this.hero = new Hero(100, 100);    //初始化自己的坦克
+        this.hero = new Hero(800, 100);    //初始化自己的坦克
         hero.setSpeed(1);    //设置坦克速度, 默认是1;
         //初始化敌人坦克
         for (int i = 0; i < enemyTanksSize; i++) {
@@ -59,8 +59,9 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         super.paint(g);
         g.fillRect(0, 0, 1000, 750);    //填充矩形，默认是黑色
         //画出坦克-封装方法
-        drawTank(hero.getX(), hero.getY(), g, hero.getDirect(), 1);    //画出我方坦克
-
+        if (hero.isLive && hero != null) {
+            drawTank(hero.getX(), hero.getY(), g, hero.getDirect(), 1);    //画出我方坦克
+        }
         for (EnemyTank enemyTank : enemyTanks) {    //画出敌人坦克
             //判断当前坦克是否还存活
             if (enemyTank.isLive) {
@@ -163,6 +164,7 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
         }
     }
+
     public void hitEnemyTank() {
         //判断是否集中了敌人坦克
         if (hero.shot != null && hero.shot.isLive) {    //当我的子弹还存活
@@ -173,35 +175,52 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
             }
         }
     }
-// 遍历
-    //编写方法，判断我方的子弹是否击中敌人
+
+    //判断敌人坦克是否击中我的坦克
+    public void hitHero() {
+        //遍历所有的敌人坦克
+        for (int i = 0; i < enemyTanks.size(); i++) {
+            EnemyTank enemyTank = enemyTanks.get(i);
+            //遍历enemyTank对象的所有子弹
+            for (int j = 0; j < enemyTank.shots.size(); j++) {
+                //取出子弹
+                Shot shot = enemyTank.shots.get(j);
+                //判断shot是否击中我的坦克
+                if (hero.isLive && shot.isLive) {
+                    hitTank(shot, hero);
+                }
+            }
+        }
+    }
+
+    //编写方法，判断子弹是否击中坦克
     //最好在run方法中判断
-    public void hitTank(Shot s, EnemyTank enemyTank) {
+    public void hitTank(Shot s, Tank tank) {
         //判断子弹集中坦克
-        switch (enemyTank.getDirect()) {
+        switch (tank.getDirect()) {
             case 0:    //坦克向上
             case 2:    //坦克向下
-                if (s.x > enemyTank.getX() && s.x < enemyTank.getX() + 40 &&
-                        s.y > enemyTank.getY() && s.y < enemyTank.getY() + 60) {
+                if (s.x > tank.getX() && s.x < tank.getX() + 40 &&
+                        s.y > tank.getY() && s.y < tank.getY() + 60) {
                     s.isLive = false;
-                    enemyTank.isLive = false;
+                    tank.isLive = false;
                     //当我的子弹击中敌人坦克后, 将enemyTank 从Vector中拿掉
-                    enemyTanks.remove(enemyTank);
+                    enemyTanks.remove(tank);
                     //创建Bomb对象, 加入到bombs中
-                    Bomb bomb = new Bomb(enemyTank.getX(), enemyTank.getY());
+                    Bomb bomb = new Bomb(tank.getX(), tank.getY());
                     bombs.add(bomb);
                 }
                 break;
             case 1:    //坦克向右
             case 3:    //坦克向左
-                if (s.x > enemyTank.getX() && s.x < enemyTank.getX() + 60 &&
-                        s.y > enemyTank.getY() && s.y < enemyTank.getY() + 40) {
+                if (s.x > tank.getX() && s.x < tank.getX() + 60 &&
+                        s.y > tank.getY() && s.y < tank.getY() + 40) {
                     s.isLive = false;
-                    enemyTank.isLive = false;
+                    tank.isLive = false;
                     //当我的子弹击中敌人坦克后, 将enemyTank 从Vector中拿掉
-                    enemyTanks.remove(enemyTank);
+                    enemyTanks.remove(tank);
                     //创建Bomb对象, 加入到bombs中
-                    Bomb bomb = new Bomb(enemyTank.getX(), enemyTank.getY());
+                    Bomb bomb = new Bomb(tank.getX(), tank.getY());
                     bombs.add(bomb);
                 }
                 break;
@@ -273,7 +292,8 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
             //判断是我们子弹否击中了敌人坦克
             hitEnemyTank();
-
+            //判断是敌人子弹否击中了我们的坦克
+            hitHero();
             this.repaint();
         }
     }

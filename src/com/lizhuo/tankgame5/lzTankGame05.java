@@ -5,17 +5,17 @@ import javax.swing.*;
 /**
  *画框
  */
-public class lzTankGame04 extends JFrame {
+public class lzTankGame05 extends JFrame {
 
     //定义MyPanel
     MyPanel mp = null;
 
     public static void main(String[] args) {
-        lzTankGame04 lzTankGame01 = new lzTankGame04();
+        lzTankGame05 lzTankGame01 = new lzTankGame05();
 
     }
 
-    public lzTankGame04() {
+    public lzTankGame05() {
         mp = new MyPanel();    //初始化为空，构造器中完成初始化
         //将mp放入到Thread, 并启动
         new Thread(mp).start();

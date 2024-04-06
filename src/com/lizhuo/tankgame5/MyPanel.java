@@ -17,6 +17,8 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
     Hero hero = null;
     //定义敌人坦克, 方到Vector中为了线程安全
     Vector<EnemyTank> enemyTanks = new Vector<>();
+
+
     int enemyTanksSize = 3;    //初始敌人坦克数量
     //说明: 当子弹击中坦克时, 加入一个Bomb对象到bombs
     Vector<Bomb> bombs = new Vector<>();    //定义一个Vector, 用于存放炸弹
@@ -33,6 +35,8 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
         for (int i = 0; i < enemyTanksSize; i++) {
             //创建一个敌人坦克
             EnemyTank enemyTank = new EnemyTank(100 * (i + 1), 0);
+            //将enemyTanks 设置给 enemyTank !!!
+            enemyTank.setEnemyTanks(enemyTanks);
             //设置方向
             enemyTank.setDirect(2);
             //启动敌人坦克线程, 让他动起来

@@ -1,6 +1,8 @@
 package com.lizhuo.tankgame5;
 
 import javax.swing.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 /**
  *画框
@@ -24,5 +26,15 @@ public class lzTankGame05 extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.addKeyListener(mp);    //让JFrame监听键盘事件
         this.setVisible(true);
+
+        //在JFrame 中增加相应关闭窗口的处理
+        this.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                Recorder.keepRecord();
+                System.exit(0);
+            }
+        });
+
     }
 }

@@ -57,10 +57,26 @@ public class MyPanel extends JPanel implements KeyListener, Runnable {
 
     }
 
+    //编写方法，显示我方击毁敌方坦克的信息
+    public void showInfo(Graphics g) {
+
+        //画出玩家的总成绩
+        g.setColor(Color.BLACK);
+        Font font = new Font("宋体", Font.BOLD, 25);
+        g.setFont(font);
+
+        g.drawString("您累积击毁敌方坦克", 1020, 30);
+        drawTank(1020, 60, g, 0, 0);//画出一个敌方坦克
+        g.setColor(Color.BLACK);//这里需要重新设置成黑色
+        g.drawString( "0", 1080, 100);
+
+    }
+
     @Override
     @SuppressWarnings("all")
     public void paint(Graphics g) {
         super.paint(g);
+        showInfo(g);
         g.fillRect(0, 0, 1000, 750);    //填充矩形，默认是黑色
         //画出坦克-封装方法
         if (hero.isLive && hero != null) {

@@ -20,7 +20,7 @@ public class lzTankGame05 extends JFrame {
         //将mp放入到Thread, 并启动
         new Thread(mp).start();
         this.add(mp);    //把面板就是游戏绘制区域添加进来
-        this.setSize(1200, 950);
+        this.setSize(1300, 950);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.addKeyListener(mp);    //让JFrame监听键盘事件
         this.setVisible(true);
